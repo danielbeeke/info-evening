@@ -153,7 +153,7 @@ body .reveal {
 }
 
 .agenda h3 {
-    font-size: 50px;
+    font-size: 44px;
 }
 
 .time-period {
@@ -164,22 +164,16 @@ section.full {
     padding-right: 220px !important;
 }
 
-.quiz {
-    counter-reset: quiz;
-}
-
-.quiz section.full {
-    .number {
-        color: var(--r-heading-color);
-        background-color: white;
-        width: 120px;
-        font-size: 50px;
-        margin-bottom: 30px;
-        font-family: 'Lato';
-        height: 120px;
-        line-height: 120px !important;
-        text-align: center;
-        border-radius: 50%;
-        display: block;
-    }
+.number {
+    color: var(--r-heading-color);
+    background-color: white;
+    width: 120px;
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-family: 'Lato';
+    height: 120px;
+    line-height: 120px !important;
+    text-align: center;
+    border-radius: 50%;
+    display: block;
 }
