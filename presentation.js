@@ -24,6 +24,13 @@ const init = () => {
    })   
 }
 
+
 init()
 
-window.addEventListener('resize', _.debounce(init, 300))
+window.addEventListener('resize', _.debounce(() => {
+   deck.configure({ 
+      width: window.innerWidth,
+      height: window.innerHeight,
+   })
+   deck.layout()
+}, 300))

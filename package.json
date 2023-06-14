@@ -1,12 +1,11 @@
 {
-  "name": "linked-data-and-javascript",
+  "name": "info-evening",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "vite",
-    "postinstall": "sass-migrator division node_modules/reveal.js/**/*.scss",
-    "build": "sass style.scss style.css"
+    "postinstall": "sass-migrator division node_modules/reveal.js/**/*.scss"
   },
   "author": "",
   "license": "MIT",
