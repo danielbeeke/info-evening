@@ -32,6 +32,11 @@
   line-height: 1.6 !important;
 }
 
+h2 {
+  line-height: 1.2 !important;
+  font-weight: 300 !important;
+}
+
 .reveal:after {
   display: block;
   height: 100vh;
