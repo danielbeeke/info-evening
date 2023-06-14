@@ -1,4 +1,5 @@
 import Reveal from 'https://cdn.skypack.dev/reveal.js';
+import Notes from 'https://cdn.skypack.dev/reveal.js/plugin/notes/notes.js';
 import _ from 'https://cdn.skypack.dev/lodash';
 
 let deck
@@ -7,14 +8,14 @@ const init = () => {
 
    if (deck) deck.destroy()
 
-   deck = new Reveal({ 
+   deck = new Reveal()
+
+   deck.initialize({
       hash: true,
       margin: 0.00,
       controlsTutorial: false,
-   })
-
-   deck.initialize({
       margin: 0,
+      plugins: [Notes],
       controls: false,
       transition: 'slide',
       backgroundTransition: 'slide',
