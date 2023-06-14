@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "postinstall": "sass-migrator division node_modules/reveal.js/**/*.scss",
-    "build": "vite build"
+    "build": "sass style.scss style.css"
   },
   "author": "",
   "license": "MIT",
